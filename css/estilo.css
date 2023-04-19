@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
+
+
+*{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+/*A partir de aca comienza el Header*/
+
+.Header{
+    height: 16vh;
+    border-bottom: solid 2px red;
+    
+}
+
+.ContenedorLogo{
+    display: inline-block;
+    width: 50%;    
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.Logo {
+    width: 13%;
+}
+
+.Navegacion{
+    width: 45%;
+    display: inline-block;
+    text-align: right;
+    padding-top: 0;
+}
+
+.ListaItem{
+   list-style: none;
+   display: inline-block;
+   padding-left: 15px;
+}
+
+.LinkNav{
+    text-decoration: none;
+    color: rgb(243, 60, 16);
+    font-size: 1.5rem;
+}
+
+
+/*A partir de aca comienza el main*/
+
+
+.Principal{
+    height: 84vh;
+}
+
+.ImagenPrincipal{
+    width: 100%;
+    height: 84vh;
+}
+
+
+.Seccion{
+    text-align: center;
+    width: 100%;
+    height: 90vh;   
+    
+}
+
+.Seccion h2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.Tarjetas{
+    margin-top: 20px;
+    width: 30%;
+    display: inline-block;
+    border-radius: 10px;
+    border: solid 1px rgb(243, 60, 16); 
+    
+}
+
+.Tarjetas img{
+    padding-top: 4px;
+    border-radius: 10px;
+    width: 80%;
+    height: 50vh;
+}
+
+
+/*A partir de aca comienza el Footer*/
+
+.PiePagina {
+    height: 25vh;
+    text-align: center;
+    background-color: gray;
+}
+
+
+.linkRedes{
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+.icon{
+    color: black;
+    font-size: 35px;
+}
+
+.PieAnclas{
+    font-size: 25px;
+    padding-left: 10px;    
+}
