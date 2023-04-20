@@ -4,47 +4,75 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/estilo.css">
         <script src="https://kit.fontawesome.com/1c694c143b.js" crossorigin="anonymous"></script>
         <title>Aun mas rico</title>
     </head>
     <body>
-        <header class="Header">
-            <div class="ContenedorLogo">
-                <img class="Logo" src="./assets/img/logo_aunmasrico.png" alt="logo_batidora" width="100px">
+        <header class="Header container-fluid">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="./assets/img/logo_aunmasrico.png" alt="logo aunmasrico" class="d-inline-block align-text-top tamañoLogo">                   
+                        </a>
+                        <h3><u>AÚN MÁS RICO</u></h3>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav w-100 justify-content-end">
+                                <li class="nav-item">
+                                    <a class="nav-link active linkNav" aria-current="page" href="#">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active linkNav" href="./pages/eventos.html">Eventos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active linkNav" href="./pages/galeria.html">Galeria</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active linkNav" href="./pages/nosotros.html">Nosotros</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link linkColor linkNav" href="./pages/contacto.html">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
             </div>
-            <nav class="Navegacion">
-                <ul>
-                    <li class="ListaItem"><a class="LinkNav" href="#">inicio</a></li>
-                    <li class="ListaItem"><a class="LinkNav" href="./pages/eventos.html">eventos</a></li>
-                    <li class="ListaItem"><a class="LinkNav" href="./pages/galeria.html">galeria</a></li>
-                    <li class="ListaItem"><a class="LinkNav" href="./pages/nosotros.html">nosotros</a></li>
-                    <li class="ListaItem"><a class="LinkNav" href="./pages/contacto.html">contacto</a></li>                                            
-                </ul>
-            </nav>   
-       </header>
+        </header>
         <main>
-            <div class="Principal">      
-                <img class="ImagenPrincipal" src="./assets/img/reposteria_principal.jpg" alt="reposteria_principal">               
+            <div class="Principal"> 
+                <div>
+                    <h1>BIENVENIDOS AL MUNDO DULCE</h1>
+                </div>                
             </div>
             <section class="Seccion">
-                <h2>Titulo de seccion cards</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus adipisci eveniet similique 
-                sit soluta assumenda eius, odit in tempore doloribus<br> 
-                cupiditate, neque, nulla dolore delectus ipsa. Officia libero dignissimos obcaecati?</p>
-                <div class="Tarjetas">                                      
-                    <a href="./pages/eventos.html"><img src="./assets/img/eventos.jpg" alt="eventos"></a>
-                    <h3>EVENTOS</h3>                                                               
-                </div>               
- 
-                <div class="Tarjetas">
-                    <a href="./pages/galeria.html"><img src="./assets/img/galeria.jpg" alt="galeria"></a>
-                    <h3>GALERIA</h3>
-                </div>
- 
-                <div class="Tarjetas">
-                    <a href="./pages/nosotros.html"><img src="./assets/img/nosotros.jpg" alt="nosotros"></a>
-                    <h3>NOSOTROS</h3>
+                <div class="card-group">
+                    <div class="card">
+                        <a href="./pages/eventos.html"><img src="./assets/img/eventos.jpg" class="card-img-top" alt="eventos"></a>
+                        <div class="card-body">
+                            <h2 class="card-title">Eventos</h2>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="./pages/galeria.html"><img src="./assets/img/galeria.jpg" class="card-img-top" alt="galeria"></a>
+                        <div class="card-body">
+                            <h2 class="card-title">Galeria</h2>
+                            <p class="card-text">Conoce nuestros mejores postres. ¡Cuidado con caer en la <u>tentacion</u>!</p>            
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="./pages/nosotros.html"><img src="./assets/img/nosotros.jpg" class="card-img-top" alt="nosotros"></a>
+                        <div class="card-body">
+                            <h2 class="card-title">Nosotros</h2>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
@@ -54,15 +82,8 @@
                 <a class="linkRedes" href="https://www.facebook.com/" target="_blank"><i class="icon fa-brands fa-facebook"></i></a>
                 <a class="linkRedes" href="https://twitter.com/" target="_blank"><i class="icon fa-brands fa-twitter"></i></a>              
             </div>
-            <ul>
-                <li>
-                    <a class="PieAnclas" href="./pages/eventos.html">eventos</a>
-                    <a class="PieAnclas" href="./pages/galeria.html">galeria</a>
-                    <a class="PieAnclas" href="./pages/nosotros.html">nosotros</a>
-                    <a class="PieAnclas" href="./pages/contacto.html">contacto</a>                  
-                </li>
-            </ul>
             <p>Copyright © 2023 - Desarrollado por Martin Suarez</p>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
 </html>

@@ -6,46 +6,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
+
 
 
 /*A partir de aca comienza el Header*/
 
+
 .Header{
-    height: 16vh;
-    border-bottom: solid 2px red;
-    
+    width: 100%;
+    display: flex;
+    height: 14vh;
 }
 
-.ContenedorLogo{
-    display: inline-block;
-    width: 50%;    
-    padding-top: 5px;
-    padding-left: 5px;
+.tamañoLogo{
+    width: 67px;
+    height: 67px;
 }
 
-.Logo {
-    width: 13%;
-}
-
-.Navegacion{
-    width: 45%;
-    display: inline-block;
-    text-align: right;
-    padding-top: 0;
-}
-
-.ListaItem{
-   list-style: none;
-   display: inline-block;
-   padding-left: 15px;
-}
-
-.LinkNav{
-    text-decoration: none;
+.navbar-light .navbar-nav .linkColor{
     color: rgb(243, 60, 16);
-    font-size: 1.5rem;
+}
+
+
+.linkNav{
+    font-size: 1.4rem;
 }
 
 
@@ -53,65 +38,92 @@
 
 
 .Principal{
-    height: 84vh;
+    background-image: url(../assets/img/imagenprincipalindex.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain;  
+    width: 100%;
+    display: flex;
+    height: 86vh;
 }
 
-.ImagenPrincipal{
-    width: 100%;
-    height: 84vh;
+
+.Principal h1{
+    font-family: "Bebas Neue", cursive;
+    color: rgb(243, 60, 16);
+    font-size: 2rem;
+    padding-top: 20px;
+    padding-left: 15px;
 }
 
 
 .Seccion{
-    text-align: center;
-    width: 100%;
-    height: 90vh;   
-    
-}
-
-.Seccion h2{
-    margin-top: 40px;
-    margin-bottom: 40px;
+    width: 90%;
+    margin: 3rem auto;
 }
 
 
-.Tarjetas{
-    margin-top: 20px;
+.card-group{
+    column-gap: 30px;
+}
+
+
+.card{
     width: 30%;
-    display: inline-block;
-    border-radius: 10px;
-    border: solid 1px rgb(243, 60, 16); 
-    
+    -webkit-box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.75);
 }
 
-.Tarjetas img{
-    padding-top: 4px;
-    border-radius: 10px;
-    width: 80%;
-    height: 50vh;
+
+.card img{
+    width: 100%;
+    height: 380px;
 }
+
+.card-body h2{
+    font-family: "Bebas Neue", cursive;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.card-body p{
+    font-size: 1.1rem;
+    text-align: center;
+}
+
 
 
 /*A partir de aca comienza el Footer*/
 
 .PiePagina {
-    height: 25vh;
     text-align: center;
+    height: 10vh;
     background-color: gray;
 }
 
 
 .linkRedes{
     text-decoration: none;
-    padding-left: 30px;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 .icon{
     color: black;
-    font-size: 35px;
+    font-size: 30px;
 }
 
-.PieAnclas{
-    font-size: 25px;
-    padding-left: 10px;    
+
+@media screen {
+    .card{
+        width: 100%;
+    }
 }
+
+
+/* Aca comienza la pagina de EVENTOS */
