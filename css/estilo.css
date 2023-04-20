@@ -2,7 +2,6 @@
 
 
 *{
-    font-family: 'Oswald', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,6 +13,7 @@
 
 
 .Header{
+    font-family: 'Oswald', sans-serif;
     width: 100%;
     display: flex;
     height: 14vh;
@@ -123,7 +123,7 @@
     .card{
         width: 100%;
     }
-}
+} 
 
 
 /* Aca comienza la pagina de EVENTOS */
@@ -242,7 +242,7 @@
     .TarjetaEventos2 img{
         border-radius: 8px 8px 0 0;
     }
-}
+} 
 
 
 
@@ -301,5 +301,112 @@ hr{
 
 
 /* Aca comienza la pagina de NOSOTROS */
+
+
+
+.contenedorNosotros{
+    width: 80%;
+    height: 86vh;
+    margin: 0 auto;
+    display: flex;
+}
+
+.contenedorNosotros__titulo{
+    font-family: "Bebas Neue", cursive;
+    width: 60%;
+    height: 100%;
+    padding-right: 90px;
+}
+
+.contenedorNosotros__titulo h1{
+    font-weight: 600;
+    margin-top: 120px;
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.904);  
+}
+
+.contenedorNosotros__titulo p{
+    font-weight: 300;
+    font-size: 30px;
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.849);
+}
+
+.contenedorNosotros__imagen{
+    width: 40%;   
+}
+
+.contenedorNosotros__imagen img{
+    width: 100%;
+    height: 100%;    
+}
+
+.contenedorSecundario{
+    display: flex;
+    width: 80%;
+    height: 470px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.267);
+    font-family: "Bebas Neue", cursive;
+}
+
+.contenedorSecundario div h2{
+    font-weight: 600;
+    font-size: 46px;
+    width: 100%;
+    margin-top: 130px;
+    margin-bottom: 25px;
+    padding-right: 20px;
+    color: rgba(0, 0, 0, 0.815);
+}
+
+.contenedorSecundario div p{
+    font-size: 20px;
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 25px;
+    color: rgba(0, 0, 0, 0.685);
+}
+
+.contenedorSeguidores{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    font-family: "Bebas Neue", cursive;
+}
+
+.contenedorSeguidores div{
+    width: 30%;
+    padding: 70px 0 70px 20px;
+    margin-right: 40px;
+}
+
+.contenedorSeguidores div h3{
+    font-weight: 600;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.815);
+}
+
+.contenedorSeguidores div p{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.685);
+}
+
+.contenedorImagenes{
+    display: flex;
+    width: 50%;
+    height: 600px;
+}
+
+.contenedorImagenes img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+/* Aca comienza la pagina de CONTACTO */
+
 
 
