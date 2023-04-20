@@ -11,7 +11,6 @@
 
 /*A partir de aca comienza el Header*/
 
-
 .Header{
     font-family: 'Oswald', sans-serif;
     width: 100%;
@@ -197,53 +196,6 @@
 }
 
 
-@media (max-width: 500px) {
-    .TarjetaEventos{
-        width: 100%;
-        background-color: rgba(255, 123, 0, 0.233);
-        height: 750px;
-        flex-direction: column;        
-    }
-
-    .TarjetaEventos:hover{
-        transition: none;
-        transform: none;
-    }
-
-    .TarjetaEventos2:hover{
-        transition: none;
-        transform: none;
-    }
-
-    .imagenesSeccion{
-        width: 100%;
-        height: 470px;
-        border-radius: 8px 8px 0 0;
-    }
-
-    .parrafo h2{
-        margin-bottom: 15px;
-    }
-
-    .parrafo{
-        width: 90%;
-        margin: 1rem 1rem;
-        font-size: 1.5rem;
-    }
-
-
-    .TarjetaEventos2{
-        width: 100%;
-        background-color: rgba(255, 123, 0, 0.233);
-        height: 750px;
-        flex-direction: column;        
-    }
-
-    .TarjetaEventos2 img{
-        border-radius: 8px 8px 0 0;
-    }
-} 
-
 
 
 /* Aca comienza la pagina de GALERIA */
@@ -410,3 +362,94 @@ hr{
 
 
 
+.contenedorTotal{
+    background-image: url(../assets/img/fondocontactos.jpg);
+    height: 90vh;   
+}
+
+.contenedorTotal h1{
+    padding-top: 12px;
+    margin-left: 8%;
+    font-size: 40px;
+    color: black;
+    font-family: "Bebas Neue", cursive;
+}
+
+
+.diseñosInput{
+    border: 1px solid black;
+}
+
+
+.diseñosLabel{
+    color: black;
+    font-size: 18px;
+}
+
+.botonesInput{
+    padding: 7px 20px;
+    border: solid 1px white;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.719);
+    border-radius: 5px;
+    margin-bottom: 12px; 
+}
+
+
+
+
+
+
+@media (max-width: 500px) {     /* media pag. eventos*/
+    .TarjetaEventos{
+        width: 100%;
+        background-color: rgba(255, 123, 0, 0.233);
+        height: 750px;
+        flex-direction: column;        
+    }
+
+    .TarjetaEventos:hover{
+        transition: none;
+        transform: none;
+    }
+
+    .TarjetaEventos2:hover{
+        transition: none;
+        transform: none;
+    }
+
+    .imagenesSeccion{
+        width: 100%;
+        height: 470px;
+        border-radius: 8px 8px 0 0;
+    }
+
+    .parrafo h2{
+        margin-bottom: 15px;
+    }
+
+    .parrafo{
+        width: 90%;
+        margin: 1rem 1rem;
+        font-size: 1.5rem;
+    }
+
+
+    .TarjetaEventos2{
+        width: 100%;
+        background-color: rgba(255, 123, 0, 0.233);
+        height: 750px;
+        flex-direction: column;        
+    }
+
+    .TarjetaEventos2 img{
+        border-radius: 8px 8px 0 0;
+    }
+
+
+    .card{               /* media pag. index*/
+        width: 100%;
+    }                                    
+} 
