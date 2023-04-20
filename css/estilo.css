@@ -127,3 +127,123 @@
 
 
 /* Aca comienza la pagina de EVENTOS */
+
+
+
+.Seccion{
+    width: 90%;
+    margin: 3rem auto;
+}
+
+
+.TarjetaEventos{
+    width: 100%;
+    background-color: rgba(255, 123, 0, 0.233);
+    height: 380px;
+    display: flex;
+    margin-bottom: 3rem;
+    border-radius: 8px;
+    -webkit-box-shadow: 4px 4px 16px 0px rgba(0,0,0,0.52);
+    -moz-box-shadow: 4px 4px 16px 0px rgba(0,0,0,0.52);
+    box-shadow: 4px 4px 16px 0px rgba(0,0,0,0.52);
+}
+
+.TarjetaEventos:hover{
+    transition: all 700ms;
+    transform: scale(1.02);
+}
+
+
+.imagenesSeccion{
+    width: 340px;
+    height: 380px;
+    border-radius: 8px 0px 0px 8px;  
+}
+
+
+.TarjetaEventos2{
+    background-color: rgba(255, 123, 0, 0.233);
+    height: 380px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 3rem;
+    border-radius: 8px;
+    -webkit-box-shadow: -4px 4px 16px 0px rgba(0,0,0,0.52);
+    -moz-box-shadow: -4px 4px 16px 0px rgba(0,0,0,0.52);
+    box-shadow: -4px 4px 16px 0px rgba(0,0,0,0.52);
+}
+
+.TarjetaEventos2:hover{
+    transition: all 700ms;
+    transform: scale(1.02);
+}
+
+.TarjetaEventos2 img {
+    border-radius: 0px 8px 8px 0px;
+}
+
+
+.parrafo{
+    width: 75%;
+    margin: 4rem 3rem;
+    font-size: 1.5rem;
+}
+
+.parrafo h2{
+    text-align: center;
+    font-size: 45px;
+    color: rgba(126, 185, 95);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+@media (max-width: 500px) {
+    .TarjetaEventos{
+        width: 100%;
+        background-color: rgba(255, 123, 0, 0.233);
+        height: 750px;
+        flex-direction: column;        
+    }
+
+    .TarjetaEventos:hover{
+        transition: none;
+        transform: none;
+    }
+
+    .TarjetaEventos2:hover{
+        transition: none;
+        transform: none;
+    }
+
+    .imagenesSeccion{
+        width: 100%;
+        height: 470px;
+        border-radius: 8px 8px 0 0;
+    }
+
+    .parrafo h2{
+        margin-bottom: 15px;
+    }
+
+    .parrafo{
+        width: 90%;
+        margin: 1rem 1rem;
+        font-size: 1.5rem;
+    }
+
+
+    .TarjetaEventos2{
+        width: 100%;
+        background-color: rgba(255, 123, 0, 0.233);
+        height: 750px;
+        flex-direction: column;        
+    }
+
+    .TarjetaEventos2 img{
+        border-radius: 8px 8px 0 0;
+    }
+}
+
+
+
+/* Aca comienza la pagina de GALERIA */
