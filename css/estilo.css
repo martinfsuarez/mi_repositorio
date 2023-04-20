@@ -128,6 +128,27 @@
 /* Aca comienza la pagina de EVENTOS */
 
 
+.tituloprincipalNosotros{
+    width: 100%;
+    height: 50vh;
+    margin: 0 auto;
+    background-color: rgba(128, 128, 128, 0.219);
+}
+
+.tituloprincipalNosotros h1{
+    padding-top: 30px;
+    font-size: 50px;
+    font-family: "Bebas Neue", cursive;
+    margin-left: 40px;
+    padding-bottom: 70px;
+}
+
+
+.tituloprincipalNosotros h2{
+    margin-left: 0 35px 30px 35px;
+    text-align: center;
+}
+
 
 .Seccion{
     width: 90%;
