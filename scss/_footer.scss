@@ -1,0 +1,14 @@
+.PiePagina {
+    text-align: center;
+    height: 10vh;
+    background-color: gray;
+    .linkRedes{
+        text-decoration: none;
+        margin: 0 auto;
+        padding: 10px;
+        .icon{
+            color: black;
+            font-size: 30px;
+        }
+    }
+}

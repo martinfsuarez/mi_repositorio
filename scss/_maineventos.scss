@@ -1,0 +1,149 @@
+.tituloprincipalEventos{
+    width: 100%;
+    height: 50vh;
+    margin: 0 auto;
+    background-color: rgba(128, 128, 128, 0.219);
+    font-family: $tipografiaTextos;
+    h1{
+        padding-top: 30px;
+        font-size: 50px;
+        margin-left: 40px;
+        padding-bottom: 70px;
+    }
+    h2{
+        margin-left: 0 35px 30px 35px;
+        text-align: center;
+    }
+}
+
+.Seccion{
+    width: 90%;
+    margin: 3rem auto;
+    font-family: $tipografiaTextos;
+    .TarjetaEventos{
+        width: 100%;
+        background-color: rgba(255, 123, 0, 0.233);
+        height: 380px;
+        display: flex;
+        margin-bottom: 3rem;
+        border-radius: 8px;
+        -webkit-box-shadow: 4px 4px 16px 0px rgba(0,0,0,0.52);
+        -moz-box-shadow: 4px 4px 16px 0px rgba(0,0,0,0.52);
+        box-shadow: 4px 4px 16px 0px rgba(0,0,0,0.52);
+        div{
+            .imagenesSeccion{
+                width: 340px;
+                height: 380px;
+                border-radius: 8px 0px 0px 8px;  
+            }
+        }
+        .parrafo{
+            width: 75%;
+            margin: 4rem 3rem;
+            font-size: 1.5rem;
+            letter-spacing: 2px;
+            h2{
+                text-align: center;
+                margin-bottom: 1.4rem;
+                text-transform: uppercase;
+                font-size: 40px;
+                color: rgb(105, 175, 67);
+            }
+        }
+        &:hover{
+            transition: all 700ms;
+            transform: scale(1.02);
+        }
+    }
+    .TarjetaEventos2{
+        background-color: rgba(255, 123, 0, 0.233);
+        height: 380px;
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 3rem;
+        border-radius: 8px;
+        -webkit-box-shadow: -4px 4px 16px 0px rgba(0,0,0,0.52);
+        -moz-box-shadow: -4px 4px 16px 0px rgba(0,0,0,0.52);
+        box-shadow: -4px 4px 16px 0px rgba(0,0,0,0.52);
+        div{
+            .imagenesSeccion2{
+                width: 340px;
+                height: 380px;
+                border-radius: 0px 8px 8px 0px;  
+            }
+        }
+        .parrafo2{
+            width: 75%;
+            margin: 4rem 3rem;
+            font-size: 1.5rem;
+            letter-spacing: 2px;
+            h2{
+                text-align: center;
+                text-transform: uppercase;
+                margin-bottom: 1.4rem;
+                font-size: 40px;
+                color: rgb(105, 175, 67);
+            }
+        }
+        &:hover{
+            transition: all 700ms;
+            transform: scale(1.02);
+        }
+    }
+}
+
+
+@media only screen and (max-width: 540px){
+    .Seccion{
+        .TarjetaEventos{
+            width: 100%;
+            background-color: rgba(255, 123, 0, 0.233);
+            height: 860px;
+            flex-direction: column;
+            div{
+                .imagenesSeccion{
+                    width: 100%;
+                    height: 470px;
+                    border-radius: 8px 8px 0 0;
+                }
+            } 
+            .parrafo{
+                width: 90%;
+                margin: 1rem 1rem;
+                font-size: 1.5rem;        
+                h2{
+                    margin-bottom: 15px;
+                }
+            }
+            &:hover{
+                transition: none;
+                transform: none;
+            }       
+        }
+        .TarjetaEventos2{
+            width: 100%;
+            background-color: rgba(255, 123, 0, 0.233);
+            height: 860px;
+            flex-direction: column;
+            div{
+                .imagenesSeccion2{
+                    width: 100%;
+                    height: 470px;
+                    border-radius: 8px 8px 0 0;
+                }
+            } 
+            .parrafo2{
+                width: 90%;
+                margin: 1rem 1rem;
+                font-size: 1.5rem;        
+                h2{
+                    margin-bottom: 15px;
+                }
+            }
+            &:hover{
+                transition: none;
+                transform: none;
+            }
+        }   
+    }   
+}
