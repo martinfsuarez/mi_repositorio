@@ -6,6 +6,17 @@
   box-sizing: border-box;
 }
 
+.Principal {
+  background-image: url(../assets/img/imagenprincipalindex.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: contain;
+  width: 100%;
+  display: flex;
+  height: 86vh;
+}
+
 .Header {
   font-family: "Oswald", sans-serif;
   width: 100%;
@@ -94,7 +105,7 @@
   margin: 3rem auto;
   font-family: "Bebas Neue", cursive;
 }
-.Seccion .TarjetaEventos {
+.Seccion .TarjetaEventos, .Seccion .TarjetaEventos2 {
   width: 100%;
   background-color: rgba(255, 123, 0, 0.233);
   height: 380px;
@@ -105,35 +116,30 @@
   -moz-box-shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.52);
   box-shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.52);
 }
-.Seccion .TarjetaEventos div .imagenesSeccion {
+.Seccion .TarjetaEventos div .imagenesSeccion, .Seccion .TarjetaEventos2 div .imagenesSeccion {
   width: 340px;
   height: 380px;
   border-radius: 8px 0px 0px 8px;
 }
-.Seccion .TarjetaEventos .parrafo {
+.Seccion .TarjetaEventos .parrafo, .Seccion .TarjetaEventos2 .parrafo {
   width: 75%;
   margin: 4rem 3rem;
   font-size: 1.5rem;
   letter-spacing: 2px;
 }
-.Seccion .TarjetaEventos .parrafo h2 {
+.Seccion .TarjetaEventos .parrafo h2, .Seccion .TarjetaEventos2 .parrafo h2 {
   text-align: center;
   margin-bottom: 1.4rem;
   text-transform: uppercase;
   font-size: 40px;
-  color: rgb(105, 175, 67);
+  color: rgb(79, 150, 41);
 }
-.Seccion .TarjetaEventos:hover {
+.Seccion .TarjetaEventos:hover, .Seccion .TarjetaEventos2:hover {
   transition: all 700ms;
   transform: scale(1.02);
 }
 .Seccion .TarjetaEventos2 {
-  background-color: rgba(255, 123, 0, 0.233);
-  height: 380px;
-  display: flex;
   flex-direction: row-reverse;
-  margin-bottom: 3rem;
-  border-radius: 8px;
   -webkit-box-shadow: -4px 4px 16px 0px rgba(0, 0, 0, 0.52);
   -moz-box-shadow: -4px 4px 16px 0px rgba(0, 0, 0, 0.52);
   box-shadow: -4px 4px 16px 0px rgba(0, 0, 0, 0.52);
@@ -154,7 +160,7 @@
   text-transform: uppercase;
   margin-bottom: 1.4rem;
   font-size: 40px;
-  color: rgb(105, 175, 67);
+  color: rgb(79, 150, 41);
 }
 .Seccion .TarjetaEventos2:hover {
   transition: all 700ms;
@@ -162,26 +168,26 @@
 }
 
 @media only screen and (max-width: 540px) {
-  .Seccion .TarjetaEventos {
+  .Seccion .TarjetaEventos, .Seccion .TarjetaEventos2 {
     width: 100%;
     background-color: rgba(255, 123, 0, 0.233);
     height: 860px;
     flex-direction: column;
   }
-  .Seccion .TarjetaEventos div .imagenesSeccion {
+  .Seccion .TarjetaEventos div .imagenesSeccion, .Seccion .TarjetaEventos2 div .imagenesSeccion {
     width: 100%;
     height: 470px;
     border-radius: 8px 8px 0 0;
   }
-  .Seccion .TarjetaEventos .parrafo {
+  .Seccion .TarjetaEventos .parrafo, .Seccion .TarjetaEventos2 .parrafo {
     width: 90%;
     margin: 1rem 1rem;
     font-size: 1.5rem;
   }
-  .Seccion .TarjetaEventos .parrafo h2 {
+  .Seccion .TarjetaEventos .parrafo h2, .Seccion .TarjetaEventos2 .parrafo h2 {
     margin-bottom: 15px;
   }
-  .Seccion .TarjetaEventos:hover {
+  .Seccion .TarjetaEventos:hover, .Seccion .TarjetaEventos2:hover {
     transition: none;
     transform: none;
   }

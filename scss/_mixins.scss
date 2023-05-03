@@ -1,0 +1,5 @@
+@mixin flexbox($direccion,$ancho,$margen){
+    display: $direccion;
+    width: $ancho;
+    margin: $margen;
+}

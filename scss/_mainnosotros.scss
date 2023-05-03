@@ -61,9 +61,7 @@ section{
 }
 section{
     .contenedorSeguidores{
-        display: flex;
-        width: 80%;
-        margin: 0 auto;
+        @include flexbox(flex,80%,0 auto);
         font-family: $tipografiaTextos;
         div{
             width: 30%;
