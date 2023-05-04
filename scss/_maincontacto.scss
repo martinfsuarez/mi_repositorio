@@ -1,12 +1,13 @@
 .contenedorTotal{
     background-image: url(../assets/img/fondocontactos.jpg);
-    height: 90vh; 
+    height: 80vh; 
     h1{
         padding-top: 12px;
         margin-left: 8%;
-        font-size: 40px;
+        font-size: 50px;
         color: black;
-        font-family: "Bebas Neue", cursive;
+        font-family: $tipografiaTextos;
+        text-shadow: 0 0 10px $colortexto;
     }
     section{
         .container{
