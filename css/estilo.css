@@ -17,18 +17,18 @@
 }
 
 .Header {
-  /* background-color: rgba(128, 128, 128, 0.144);*/
+  background-color: white;
   font-family: "Oswald", sans-serif;
   width: 100%;
   display: flex;
   height: 14vh;
-  /*.colorFondo{
-      background-color: rgba(128, 128, 128, 0)!important;
-  }*/
 }
 .Header .tamañoLogo {
   width: 65px;
   height: 65px;
+}
+.Header a {
+  color: rgba(0, 0, 0, 0.856);
 }
 .Header .nav-item .linkColor {
   color: rgba(243, 61, 16, 0.89);
@@ -37,6 +37,16 @@
   font-size: 1.4rem;
 }
 
+@media only screen and (max-width: 540px) {
+  .Header .nav-item .linkNav {
+    background-color: white;
+    text-align: center;
+    box-shadow: inset 0 0 7px rgba(243, 61, 16, 0.89);
+    font-size: 1.4rem;
+    border-radius: 18px;
+    margin: 4px;
+  }
+}
 .contenedorTituloPrincipal {
   background-image: url(../assets/img/imagenprincipalindex.jpg);
   background-size: cover;
@@ -81,17 +91,51 @@
   width: 100%;
   height: 380px;
 }
-.Seccion .card-group .card .card-body h2 {
+.Seccion .card-group .card .card-body a {
+  text-decoration: none;
+}
+.Seccion .card-group .card .card-body a h2 {
+  text-decoration: none;
   font-family: "Bebas Neue", cursive;
   text-align: center;
   text-transform: uppercase;
   font-size: 30px;
   margin-bottom: 15px;
-  color: black;
+  color: rgba(243, 61, 16, 0.89);
+  text-shadow: 0 0 20px rgba(243, 61, 16, 0.89);
 }
 .Seccion .card-group .card .card-body p {
   font-size: 1.1rem;
   text-align: center;
+  color: rgba(0, 0, 0, 0.842);
+}
+
+.contenidoPrincipal {
+  font-family: "Bebas Neue", cursive;
+  display: flex;
+  margin: 80px auto;
+  width: 90%;
+}
+.contenidoPrincipal div img {
+  width: 410px;
+}
+.contenidoPrincipal div p {
+  padding-left: 10px;
+  padding-top: 50px;
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: 25px;
+}
+.contenidoPrincipal div a {
+  text-decoration: none;
+  margin: 0 0 10px 480px;
+  padding: 15px 15px;
+  color: red;
+  background-color: rgba(255, 68, 0, 0.219);
+  border: solid 1px rgba(243, 61, 16, 0.89);
+  border-radius: 25px;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 @media only screen and (max-width: 540px) {
@@ -107,6 +151,20 @@
   .contenedorTituloPrincipal .Principal p {
     padding-top: 25px;
     font-size: 26px;
+  }
+  .contenidoPrincipal {
+    flex-direction: column;
+    margin: 80px auto;
+  }
+  .contenidoPrincipal div {
+    margin: 0;
+  }
+  .contenidoPrincipal div p {
+    padding-top: 20px;
+    margin-bottom: 40px;
+  }
+  .contenidoPrincipal div a {
+    margin: 0 130px;
   }
 }
 .tituloprincipalEventos {

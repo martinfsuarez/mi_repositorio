@@ -41,19 +41,58 @@
                 }
             }
             .card-body{
-                h2{
-                    font-family: "Bebas Neue", cursive;
-                    text-align: center;
-                    text-transform: uppercase;
-                    font-size: 30px;
-                    margin-bottom: 15px;
-                    color: black;
+                a{
+                    text-decoration: none;
+                    h2{
+                        text-decoration: none;
+                        font-family: $tipografiaTextos;
+                        text-align: center;
+                        text-transform: uppercase;
+                        font-size: 30px;
+                        margin-bottom: 15px;
+                        color: $colortexto;
+                        text-shadow: 0 0 20px $colortexto;
+                    }
                 }
                 p{
                     font-size: 1.1rem;
                     text-align: center;
-                }              
+                    color: rgba(0, 0, 0, 0.842);
+                }             
             }
+        }
+    }
+}
+
+
+.contenidoPrincipal{
+    font-family: $tipografiaTextos;
+    display: flex;
+    margin: 80px auto;
+    width: 90%;
+    div{
+        img{
+            width: 410px;
+        }        
+    }
+    div{
+        p{
+            padding-left: 10px;
+            padding-top: 50px;
+            font-size: 1.5rem;
+            color: black;
+            margin-bottom: 25px;
+        }
+        a{
+            text-decoration: none;
+            margin: 0 0 10px 480px;
+            padding: 15px 15px;
+            color: red;
+            background-color: rgba(255, 68, 0, 0.219);
+            border: solid 1px $colortexto;
+            border-radius: 25px;
+            font-size: 20px;
+            text-transform: uppercase;
         }
     }
 }
@@ -70,6 +109,22 @@
             p{
                 padding-top: 25px;
                 font-size: 26px;
+            }
+        }
+    }
+    .contenidoPrincipal{
+        flex-direction: column;
+        margin: 80px auto;
+        div{
+            margin: 0;       
+        }
+        div{
+            p{
+                padding-top: 20px;
+                margin-bottom: 40px;
+            }
+            a{
+                margin: 0 130px;
             }
         }
     }

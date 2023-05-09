@@ -12,41 +12,37 @@
         <link rel="stylesheet" href="./css/estilo.css">
         <title>Aun mas rico - Inicio</title>
     </head>
-    <body>
-        <header class="Header container-fluid">
-            <div class="container-fluid">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light colorFondo">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#">
-                            <img src="./assets/img/logo_aunmasrico.png" alt="logo aunmasrico" class="d-inline-block align-text-top tamañoLogo">                   
-                        </a>
-                        <h3><u>AÚN MÁS RICO</u></h3>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav w-100 justify-content-end">
-                                <li class="nav-item">
-                                    <a class="nav-link active linkNav" aria-current="page" href="#">Inicio</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active linkNav" href="./pages/eventos.html">Eventos</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active linkNav" href="./pages/galeria.html">Galeria</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active linkNav" href="./pages/nosotros.html">Nosotros</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link linkColor linkNav" href="./pages/contacto.html">Contacto</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </header>
+    <body>   
+        <header class="Header">
+            <nav class="navbar navbar-expand-lg navbar-light container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/img/logo_aunmasrico.png" alt="logo aunmasrico" class="d-inline-block align-text-top tamañoLogo">                   
+                </a>
+                <a href="#"><h3><u>AÚN MÁS RICO</u></h3></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav w-100 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link active linkNav" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active linkNav" href="./pages/eventos.html">Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active linkNav" href="./pages/galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active linkNav" href="./pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link linkColor linkNav" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>  
+        </header>  
         <main>
             <section class="contenedorTituloPrincipal">
                 <div class="Principal"> 
@@ -59,24 +55,36 @@
                     <div class="card w-100">
                         <a href="./pages/eventos.html"><img src="./assets/img/eventos.jpg" class="card-img-top" alt="eventos"></a>
                         <div class="card-body">
-                            <h2 class="card-title">Eventos</h2>
+                            <a href="./pages/eventos.html"><h2 class="card-title">Eventos</h2></a>
                             <p class="card-text">Ingresa y conoce los maravillosos eventos en los cuales presentamos y calificaron nuestro trabajo.</p>
                         </div>
                     </div>
                     <div class="card w-100">
                         <a href="./pages/galeria.html"><img src="./assets/img/galeria.jpg" class="card-img-top" alt="galeria"></a>
                         <div class="card-body">
-                            <h2 class="card-title">Galeria</h2>
+                            <a href="./pages/galeria.html"><h2 class="card-title">Galeria</h2></a>
                             <p class="card-text">Conoce nuestros mejores postres. ¡Cuidado con caer en la <u>tentacion</u>!</p>            
                         </div>
                     </div>
                     <div class="card w-100">
                         <a href="./pages/nosotros.html"><img src="./assets/img/nosotros.jpg" class="card-img-top" alt="nosotros"></a>
                         <div class="card-body">
-                            <h2 class="card-title">Nosotros</h2>
+                            <a href="./pages/nosotros.html"><h2 class="card-title">Nosotros</h2></a>
                             <p class="card-text">Conocenos un poco mas y te daras cuenta el amor que tenemos por la pasteleria.</p>
                         </div>
                     </div>
+                </div>
+            </section>
+            <section class="contenidoPrincipal">
+                <div>
+                    <img src="./assets/img/tortaprincipal2.webp" alt="">
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis quasi blanditiis iste ea, minima error facilis 
+                    assumenda autem voluptates quas? Suscipit id, accusamus et assumenda similique nihil enim consequuntur sed.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <a href="#">Conoce más</a>
                 </div>
             </section>
         </main>
