@@ -11,14 +11,21 @@
     a{
         color: rgba(0, 0, 0, 0.856);
     }     
-    .nav-item{
+    .nav-item{   
+        margin-left: 11px;
         .linkColor{           
             color: $colortexto;            
         }
         .linkNav{
-            font-size: 1.4rem;
+            font-size: 1.4rem;          
+            box-shadow: 0 0 5px $colortexto;
+            border-radius: 8px;
+            padding: 3px 6px;  
         }
-    }   
+        &:hover{
+            background-color: rgba(255, 68, 0, 0.075);           
+        }  
+    }
 }  
 
 
@@ -30,7 +37,7 @@
                 text-align: center;
                 box-shadow: inset 0 0 7px $colortexto;
                 font-size: 1.4rem;
-                border-radius: 18px;
+                border-radius: 18px; 
                 margin: 4px;
             }
         }   
