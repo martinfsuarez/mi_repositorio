@@ -1,0 +1,95 @@
+.contenedorerror404{
+    height: 76vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    .contenedorerror404__contenedorError1{
+        width: 3%;
+        img{
+            width: 320px;
+            object-fit: cover;
+        }
+    }
+    .contenedorerror404__contenedorError2{
+        text-align: center;
+        width: 55%;
+        height: 100%;
+        font-family: $tipografiaTextos;
+        h1{
+            font-size: 240px;
+            text-shadow: 0 0 20px $colortexto;
+        }
+        h2{
+           text-transform: uppercase;
+           font-size: 25px;
+           font-weight: 500;
+           color: black;
+        }
+        p{
+            padding-top: 10px;
+            font-size: 16px;
+            span{
+                color: $colortexto;
+            }
+        }
+        ul{
+            justify-content: right;
+            display: flex;
+            li{
+                list-style: none;
+                margin-left: 12px;
+                a{
+                    font-size: 16px;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 540px){
+    .contenedorerror404{
+        height: 76vh;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin: 0 auto;
+        .contenedorerror404__contenedorError1{
+            width: 0;
+            img{
+                margin-bottom: 50px;
+                width: 210px;
+            }
+        }
+        .contenedorerror404__contenedorError2{
+            text-align: center;
+            width: 95%;
+            h1{
+                font-size: 180px;
+                text-shadow: 0 0 20px $colortexto;
+            }
+            h2{
+               text-transform: uppercase;
+               font-size: 25px;
+               font-weight: 500;
+               color: black;
+            }
+            p{
+                padding-top: 10px;
+                font-size: 16px;
+                margin: 20px 0;
+                span{
+                    color: $colortexto;
+                }
+            }
+            ul{
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    }
+}

@@ -595,6 +595,99 @@ section .contenedorImagenes img {
     width: 100%;
   }
 }
+.contenedorerror404 {
+  height: 76vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+}
+.contenedorerror404 .contenedorerror404__contenedorError1 {
+  width: 3%;
+}
+.contenedorerror404 .contenedorerror404__contenedorError1 img {
+  width: 320px;
+  object-fit: cover;
+}
+.contenedorerror404 .contenedorerror404__contenedorError2 {
+  text-align: center;
+  width: 55%;
+  height: 100%;
+  font-family: "Bebas Neue", cursive;
+}
+.contenedorerror404 .contenedorerror404__contenedorError2 h1 {
+  font-size: 240px;
+  text-shadow: 0 0 20px rgba(243, 61, 16, 0.89);
+}
+.contenedorerror404 .contenedorerror404__contenedorError2 h2 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+}
+.contenedorerror404 .contenedorerror404__contenedorError2 p {
+  padding-top: 10px;
+  font-size: 16px;
+}
+.contenedorerror404 .contenedorerror404__contenedorError2 p span {
+  color: rgba(243, 61, 16, 0.89);
+}
+.contenedorerror404 .contenedorerror404__contenedorError2 ul {
+  justify-content: right;
+  display: flex;
+}
+.contenedorerror404 .contenedorerror404__contenedorError2 ul li {
+  list-style: none;
+  margin-left: 12px;
+}
+.contenedorerror404 .contenedorerror404__contenedorError2 ul li a {
+  font-size: 16px;
+  color: black;
+}
+
+@media only screen and (max-width: 540px) {
+  .contenedorerror404 {
+    height: 76vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+  }
+  .contenedorerror404 .contenedorerror404__contenedorError1 {
+    width: 0;
+  }
+  .contenedorerror404 .contenedorerror404__contenedorError1 img {
+    margin-bottom: 50px;
+    width: 210px;
+  }
+  .contenedorerror404 .contenedorerror404__contenedorError2 {
+    text-align: center;
+    width: 95%;
+  }
+  .contenedorerror404 .contenedorerror404__contenedorError2 h1 {
+    font-size: 180px;
+    text-shadow: 0 0 20px rgba(243, 61, 16, 0.89);
+  }
+  .contenedorerror404 .contenedorerror404__contenedorError2 h2 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+  }
+  .contenedorerror404 .contenedorerror404__contenedorError2 p {
+    padding-top: 10px;
+    font-size: 16px;
+    margin: 20px 0;
+  }
+  .contenedorerror404 .contenedorerror404__contenedorError2 p span {
+    color: rgba(243, 61, 16, 0.89);
+  }
+  .contenedorerror404 .contenedorerror404__contenedorError2 ul {
+    width: 100%;
+    justify-content: center;
+  }
+}
 .PiePagina {
   padding-top: 8px;
   text-align: center;
