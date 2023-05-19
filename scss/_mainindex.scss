@@ -82,6 +82,9 @@
             font-size: 1.5rem;
             color: black;
             margin-bottom: 25px;
+            span{
+                color: $colortexto;
+            }
         }
         a{
             text-decoration: none;
@@ -112,19 +115,18 @@
             }
         }
     }
-    .contenidoPrincipal{
+    .contenidoPrincipal{       
         flex-direction: column;
         margin: 80px auto;
-        div{
-            margin: 0;       
-        }
-        div{
+        overflow-y: hidden;
+        .contenidoSecundario{  
+            padding-bottom: 20px;       
             p{
-                padding-top: 20px;
+                padding-top: 15px;
                 margin-bottom: 40px;
             }
             a{
-                margin: 0 130px;
+                margin: 0 130px;                
             }
         }
     }

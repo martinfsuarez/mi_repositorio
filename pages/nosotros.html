@@ -7,6 +7,7 @@
         <meta name="description" content="Aqui vas a poder conocer mucho mas de nosotros.">
         <meta name="keywords" content="pasteleria, tortas, dulce, decoraciones, reposteria, nosotros, empresa">
         <link rel="shortcut icon" href="../assets/img/logo_aunmasrico.png">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="https://kit.fontawesome.com/1c694c143b.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="../css/estilo.css">
@@ -18,7 +19,7 @@
                 <a class="navbar-brand" href="../index.html">
                     <img src="../assets/img/logo_aunmasrico.png" alt="logo aunmasrico" class="d-inline-block align-text-top tamañoLogo">                   
                 </a>
-                <a href="../index.html"><h3><u>AÚN MÁS RICO</u></h3></a>
+                <a href="../index.html"><h2><u>AÚN MÁS RICO</u></h2></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -47,7 +48,7 @@
             <div class="contenedorNosotros">
                 <div class="contenedorNosotros__titulo">
                     <h1>Ayudando a que cada momento festivo sea unico.</h1>
-                    <p>Aún más rico es la dulzura que necesitas.</p>
+                    <p><span>Aún más rico es la dulzura que necesitas.</span></p>
                 </div>
                 <div class="contenedorNosotros__imagen">
                     <img src="../assets/img/tortaprincipal.png" alt="tortaprincipal">
@@ -59,31 +60,31 @@
                         <h2>Contactanos y pedí la torta que quieras, con el diseño que mas te guste</h2>
                     </div>
                     <div>
-                        <p>Aún más rico esta hecho para empalagar. Nuestras tortas van mas allá de lo clasico. Conéctese con
+                        <p><span>Aún más rico esta hecho para empalagar.</span> Nuestras tortas van mas allá de lo clasico. Conéctese con
                             cada sabor en nuestras tortas personalizadas. Convierta esas ideas en sabor. <br>
-                            Lideres en reposteria y decoraciones de tortas.
+                            <span>Lideres en reposteria y decoraciones de tortas.</span>
                         </p>
                     </div>
                 </div>
             </section>
             <section>
                 <div class="contenedorSeguidores">
-                    <div>
+                    <div data-aos="flip-up">
                         <h3>30+</h3>
                         <p>Desde 2017, Aún más rico ha pasado de ser un equipo de 2 a mas de 30.</p>
                     </div>
-                    <div>
+                    <div data-aos="flip-up">
                         <h3>1000+</h3>
                         <p>Mas de 1000 tortas y decoraciones vendidas</p>
                     </div>
-                    <div>
+                    <div data-aos="flip-up">
                         <h3>500.000+</h3>
                         <p>Mas de 500 mil seguidores en Instagram</p>
                     </div>
                 </div> 
                 <div class="contenedorImagenes">
-                    <img src="../assets/img/torta nosotros.jpg" alt="nosotros1">
-                    <img src="../assets/img/torta nosotros2.jpg" alt="nosotros2">
+                    <img data-aos="flip-right" src="../assets/img/torta nosotros.jpg" alt="nosotros1">
+                    <img data-aos="flip-left" src="../assets/img/torta nosotros2.jpg" alt="nosotros2">
                 </div>          
             </section>
         </main>
@@ -95,6 +96,10 @@
             </div>
             <p>Copyright © 2023 - Desarrollado por Martin Suarez</p>
         </footer>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
 </html>

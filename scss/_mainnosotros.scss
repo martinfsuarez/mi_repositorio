@@ -19,6 +19,9 @@
             font-size: 30px;
             margin-top: 15px;
             color: rgba(0, 0, 0, 0.849);
+            span{
+                color: $colortexto;
+            }
         }
     }
     .contenedorNosotros__imagen{
@@ -55,6 +58,9 @@ section{
                 margin-top: 150px;
                 margin-bottom: 25px;
                 color: rgba(0, 0, 0, 0.685);
+                span{
+                    color: $colortexto;
+                }
             }
         }
     }
@@ -81,8 +87,9 @@ section{
     .contenedorImagenes{
         display: flex;
         width: 50%;
-        height: 600px;
+        height: 550px;
         img{
+            padding: 4px;
             width: 100%;
             height: 100%;
             object-fit: contain;
@@ -157,7 +164,7 @@ section{
         .contenedorImagenes{
             flex-direction: column;
             width: 100%;
-            margin-bottom: 90px;
+            margin-bottom: 150px;
             img{
                 margin-top: 10px;              
                 object-fit: contain;
